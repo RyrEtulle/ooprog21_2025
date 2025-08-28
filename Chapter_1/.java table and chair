@@ -1,0 +1,17 @@
+import javax.swing.*;
+
+public class TableAndChairsGUI {
+    public static void main(String[] args) {
+        String output =
+                "X                      X\n" +
+                "X                      X\n" +
+                "X      XXXXXXXXXX      X\n" +
+                "XXXXX  X        X  XXXXX\n" +
+                "X   X  X        X  X   X\n" +
+                "X   X  X        X  X   X\n" +
+                "X   X  X        X  X   X\n";
+        JTextArea textArea = new JTextArea(output);
+        textArea.setFont(new java.awt.Font("Monospaced", java.awt.Font.PLAIN, 14));
+        JOptionPane.showMessageDialog(null, new JScrollPane(textArea), "Table and Chairs", JOptionPane.PLAIN_MESSAGE);
+    }
+}

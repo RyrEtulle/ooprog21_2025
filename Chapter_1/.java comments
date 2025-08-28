@@ -1,0 +1,10 @@
+
+public class Comments {
+    public static void main(String[] args) {
+        
+        System.out.println("Hello, this is a Java program with comments!");
+
+        
+        System.out.println("Program finished running!");
+    }
+}

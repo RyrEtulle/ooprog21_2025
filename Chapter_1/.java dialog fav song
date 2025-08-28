@@ -1,0 +1,8 @@
+public class FavoriteSong {
+    public static void main(String[] args) {
+        System.out.println("Line 1: See you again ");
+        System.out.println("Line 2: Chicago");
+        System.out.println("Line 3: Birds of a feather");
+        System.out.println("Line 4: Deslocado");
+    }
+}

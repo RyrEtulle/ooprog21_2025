@@ -1,19 +1,21 @@
-public class FixDebugOne
+public class FixDebug One
 {
    
-      public static void main(String[] args)   
+   public static void Main(String args)
    {
-      System.out.println("Hello World!");         
+      Systm.out.println("Hello World!")
    }
 }
+
 /*
 List down the spotted bugs below:
 
-e.g.
-- // wrong syntax for access modifier "publlic" instead of "public"
-
 Bugs:
-1. (input enteries here...)
-2. ....
-
+1. Class name has a space → should be FixDebugOne
+2. Method name "Main" → should be lowercase "main"
+3. Parameter should be String[] args, not String args
+4. Typo: "Systm" → should be "System"
+5. Missing semicolon after println statement
 */
+
+

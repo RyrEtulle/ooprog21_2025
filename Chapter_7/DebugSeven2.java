@@ -32,7 +32,7 @@ public class DebugSeven2
       partStr = str.substring(lastSpace + 1, length);
       num = Integer.parseInt(partStr);
       System.out.println("                " + num);
-      sum = num;
+      sum += num;
       System.out.println("         -------------------" +
          "\nThe sum of the integers is " + sum);
    }
